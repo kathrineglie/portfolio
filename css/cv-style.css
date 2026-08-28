@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url("/fonts/Montserrat-Bold.otf") format ("opentype");
+}
+
+@font-face {
+    font-family: "Lato-Regular";
+    src: url("/fonts/Lato-Regular.ttf") format ("opentype");
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+body {
+    font-family: "Lato-Regular", sans-serif;
+    margin-left: 30px;
+    padding: 20px;
+    background-color: white;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+h2 {
+    font-family: "Montserrat-Bold", sans-serif;
+    margin-top: 70px;
+    font-size: larger;
+    letter-spacing: 6px;
+    border-top: 3px solid black;
+    padding-top: 20px;
+}
+
+h3 {
+    font-size: medium;
+}
+
+h4 {
+    font-size: medium;
+    font-style: italic;
+}
+
+li {
+    margin-top: 7px;
+}
