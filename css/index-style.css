@@ -3,17 +3,12 @@ body {
     margin: 0;
     padding: 20px;
     background-color: white;
+    color: #096191;
 }
 
 h1 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
-}
-
-.social-links {
-    width: 40px;
-    margin: 10px;
-    text-decoration: none;
 }
 
 .main-topics {

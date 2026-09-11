@@ -8,11 +8,16 @@
     src: url("/fonts/Lato-Regular.ttf") format ("opentype");
 }
 
-img {
-    width: 200px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 40px;
+.personal-info-container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.personal-info-container img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 100px;
 }
 
 body {
@@ -20,6 +25,16 @@ body {
     margin-left: 30px;
     padding: 20px;
     background-color: white;
+    color: #096191;
+}
+
+.social-links {
+    margin-top: 50px;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 0;
 }
 
 h1 {
@@ -28,6 +43,11 @@ h1 {
 
 h2 {
     font-family: "Montserrat-Bold", sans-serif;
+    
+}
+
+h3 {
+    font-family: "Montserrat-Bold", sans-serif;
     margin-top: 70px;
     font-size: larger;
     letter-spacing: 6px;
@@ -35,11 +55,11 @@ h2 {
     padding-top: 20px;
 }
 
-h3 {
+h4 {
     font-size: medium;
 }
 
-h4 {
+h5 {
     font-size: medium;
     font-style: italic;
 }
