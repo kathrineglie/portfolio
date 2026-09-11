@@ -1,0 +1,19 @@
+.header-box {
+    background-color: #096191;
+    border: 3px;
+    padding: 40px;
+    display: block;
+    color: white;
+    min-height: 100px;
+}
+
+.header-box nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header-box nav a{
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
