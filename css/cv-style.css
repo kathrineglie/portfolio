@@ -20,6 +20,15 @@
     border-radius: 100px;
 }
 
+a {
+    background-color: #096191;
+    padding: clamp(3px, 1.5vw, 10px);
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
 body {
     font-family: "Lato-Regular", sans-serif;
     margin-left: 30px;
@@ -28,17 +37,10 @@ body {
     color: #096191;
 }
 
-.social-links {
-    margin-top: 50px;
-    margin-right: 20px;
-    width: 40px;
-    height: 40px;
-    text-decoration: none;
-    border-radius: 0;
-}
-
 h1 {
+    border-top: 3px solid black;
     font-size: x-large;
+    padding-top: 20px;
 }
 
 h2 {
@@ -48,7 +50,7 @@ h2 {
 
 h3 {
     font-family: "Montserrat-Bold", sans-serif;
-    margin-top: 70px;
+    margin-top: 40px;
     font-size: larger;
     letter-spacing: 6px;
     border-top: 3px solid black;
