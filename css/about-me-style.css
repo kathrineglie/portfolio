@@ -1,6 +1,6 @@
 @font-face {
     font-family: "LeagueSpartan";
-    src: url("/fonts/LeagueSpartan-SemiBold.ttf") format ("opentype");
+    src: url("fonts/LeagueSpartan-SemiBold.ttf") format ("opentype");
 }
 
 body {

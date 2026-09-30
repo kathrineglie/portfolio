@@ -1,6 +1,6 @@
 //fetch header
 {
-    fetch("/components/header.html")
+    fetch("components/header.html")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Could not find header.html-file");
@@ -17,7 +17,7 @@
 
 //fetch footer
 {
-    fetch("/components/footer.html")
+    fetch("components/footer.html")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Could not find footer.html-file");
