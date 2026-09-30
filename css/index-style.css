@@ -1,25 +1,64 @@
+@font-face {
+    font-family: "LeagueSpartan";
+    src: url("/fonts/LeagueSpartan-SemiBold.ttf") format ("opentype");
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
     background-color: white;
-    color: #096191;
+    color: #932351;
+}
+
+.main-page {
+    font-family: "LeagueSpartan", sans-serif;
+    margin: 0px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: clamp(10px, 3vw, 40px);
+    gap: clamp(30px, 8vw, 150px);
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-page img {
+    width: clamp(200px, 30vw, 500px);
+    height: auto;
+}
+
+.information {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #333;
 }
 
 h1 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 40px;
+    font-size: clamp(55px, 5.5vw, 90px);
+    margin: 0px;
 }
 
-.main-topics {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
+h2 {
+    font-size: clamp(30px, 3vw, 48px);
     margin: 0px;
-    align-items: flex-end;
+}
+
+h3 {
+    padding-top: 20px;
 }
 
 a {
     text-decoration: none;
+}
+
+#about-me {
+    white-space: pre-line;
 }
